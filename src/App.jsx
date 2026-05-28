@@ -12,14 +12,19 @@ const getData =async () => {
   console.log(response.data);
 }
 
+   let printUserData = 'No User Available'
+
   return (
     <div className='bg-black h-screen text-white'>
       <button 
       onClick={getData}
       className='bg-green-600 px-5 text-white rounded py-2 m-5 active:scale-95'
       >
-        get data
+        Get data
       </button>
+      <div >
+        {printUserData}
+      </div>
     </div>
   )
 }
