@@ -12,7 +12,7 @@ const getData =async () => {
   console.log(response.data);
 }
 
-   let printUserData = 'No User Available'
+   let printUserData = 'No User'
 
   return (
     <div className='bg-black h-screen text-white'>
