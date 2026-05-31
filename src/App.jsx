@@ -6,14 +6,14 @@ const App = () => {
   const [index, setindex] = useState(1)
 
 const getData =async () => {
-  const response =await axios.get('https://picsum.photos/v2/list?page=3&limit=30')
+  const response =await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=30`)
 
   setuserData(response.data);
 }
 
 useEffect(function(){
   getData()
-},[])
+},[index])
   
    let printUserData = <h3 className='text-gray-400'>No user Available</h3>
    
