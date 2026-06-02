@@ -15,7 +15,7 @@ useEffect(function(){
   getData()
 },[index])
   
-   let printUserData = <h3 className='text-gray-400'>Looding </h3>
+   let printUserData = <h3 className='text-gray-400 absolute top-1/2 left-1/2'>Looding </h3>
    
    if (userData.length>0){
     printUserData = userData.map(function(elem , idx){
