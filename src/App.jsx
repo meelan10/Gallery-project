@@ -51,7 +51,7 @@ useEffect(function(){
         className='bg-amber-400 text-sm text-black rounded px-4 py-2 font-semibold cursor-pointer active:scale-95'
         onClick={()=>{
         setindex(index + 1)
-        printUserData = 'loading...'
+       
         }}
         >
           Next
