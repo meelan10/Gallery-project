@@ -61,4 +61,4 @@ useEffect(function(){
   )
 }
 
-export default App;
+export default App
